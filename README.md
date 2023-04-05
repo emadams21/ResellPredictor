@@ -1,9 +1,6 @@
 ![Jordan 1 Cover for Readme](https://user-images.githubusercontent.com/115181745/229978370-64caf802-dae5-4698-99f8-049ba463d4e5.png)
 # Resell Predictor Tool
 
-[Resell Predictor Tool]
-
-# 
 Are you sneakerhead that has trouble finding the next hotest shoe to collect or Resell? Well Ive created a model based on 90,000 different shoe sales from StockX one of the most popular reselling websites in the world. Our model is so well that we are able to predict within $70 USD of the actual shoe price. (See below for further detials.)  
 
 
