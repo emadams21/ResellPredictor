@@ -1,6 +1,11 @@
-# ResellPredictor
 
-[project name]
+# Resell Predictor Tool
+
+[Resell Predictor Tool]
+
+# 
+Are you sneakerhead that has trouble finding the next hotest shoe to collect or Resell? Well Ive created a model based on 90,000 different shoe sales from StockX one of the most popular reselling websites in the world. Our model is so well that we are able to predict within $70 USD of the actual shoe price. (See below for further detials.)  
+
 
 # Business Understanding
 
@@ -19,13 +24,12 @@ What kind of preprocessing steps do you foresee (encoding, matrix transformation
 What are some of the cleaning/pre-processing challenges for this data? 
 
 
-# Modeling
+# Modeling and Evaluation
 What modeling techniques are most appropriate for your problem?
 What is your target variable? (remember - we require that you answer/solve a supervised problem for the capstone, thus you will need a target)
 Is this a regression or classification problem?
 
-# Evaluation
+# Conclusion
 What metrics will you use to determine success (MAE, RMSE, etc.)?
 
-# Tools/Methodologies
-What modeling algorithms are you planning to use (i.e., decision trees, random forests, etc.)?
+
