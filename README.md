@@ -20,8 +20,11 @@ To create this sample, I collected a random, fixed percentage of StockX sales (X
 
 We’ve included 8 variables for you to work with: Order Date, Brand, Sneaker Name, Sale Price ($), Retail Price ($), Release Date, Shoe Size, and Buyer Region (the state the buyer shipped to). You can use whatever variables you want in the analysis; you can use 1 
 Data Preparation
+![Resell Price Image](https://user-images.githubusercontent.com/115181745/229978655-c7788942-df74-4e85-905d-4aa869968456.png)
+
 What kind of preprocessing steps do you foresee (encoding, matrix transformations, etc.)? 
 What are some of the cleaning/pre-processing challenges for this data? 
+![Correlation Matrix](https://user-images.githubusercontent.com/115181745/229978586-6afc90c0-779e-43d0-87b3-b2f809b5ef95.png)
 
 
 # Modeling and Evaluation
