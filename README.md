@@ -24,7 +24,7 @@ This correlation matrix had some really interesting findings. I discovered that 
 # Modeling and Evaluation
 The classification that I was aiming for was to be able to predict the Resell price for any given shoe this also indicates that this will be a regression problem because it is calculating the actual $ dollar value of the shoe. 
 
-To help me choose a model that would best suit me I wanted to create a pipeline to help me choose the best model possible. I wanted to choose between a decision tree regression model and Random Forest Pipeline to help me identify the specific shoe and its resell price. I also wanted to test the XGBoost model to show which features are impacting the Resell price the most. Through most of my testing, XGBoost and the Random Forest Pipeline went back and forth on accuracy initially. I chose Random Forrest because It was more accurate most of the time. 
+To help me choose a model that would best suit me I wanted to create a pipeline to help me choose the best model possible. I wanted to choose between a decision tree regression model and Random Forest Pipeline to help me identify the specific shoe and its resell price. I chose Random Forrest because it performed the best and it has the power to handle a large data set with higher dimensionality, provides higher accuracy through cross validation, is commonly used when analyzing the stock market due to its random nature (such as the volitialty of resell prices everyday), and each tree draws a random sample from the original data set when generating its splits, adding a further element of randomness that prevents overfitting. 
 
 # Conclusion
 
