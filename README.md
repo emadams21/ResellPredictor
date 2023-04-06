@@ -16,9 +16,7 @@ After cleaning the data and renaming columns to best suit this project I did an 
 
 ![Resell Price Image](https://user-images.githubusercontent.com/115181745/229978655-c7788942-df74-4e85-905d-4aa869968456.png)
 
-I took into account Shoe Size, Colors, Retail Price, and shoe brand for the physical parts of the shoe. For colors, I had to incorporate a separate data set and one hot encode that data set to make it easy to identify which color is which.  From a non-physical standpoint, I restructured the way time was represented to make it easier to put into the model. I decided to reorganize the Release Dates and Order dates into seasons and years so I could just one-hot encode them together into the model.
-
-Now that I had all my features listed out I needed to see which features correlated with each other so I could choose the best model to go with.  I ended up creating a correlation matrix as shown below to map out which features show some correlation to each other.
+I took into account Shoe Size, Colors, Retail Price, and shoe brand for the physical parts of the shoe. For colors, I had to incorporate a separate data set and one hot encode that data set to make it easy to identify which color is which.  From a non-physical standpoint, I restructured the way time was represented to make it easier to put into the model. I decided to reorganize the Release Dates and Order dates into seasons and years so I could just one-hot encode them together into the model. Now that I had all my features listed out I needed to see which features correlated with each other so I could choose the best model to go with.  I ended up creating a correlation matrix as shown below to map out which features show some correlation to each other.
 
 ![Correlation Matrix](https://user-images.githubusercontent.com/115181745/229978586-6afc90c0-779e-43d0-87b3-b2f809b5ef95.png)
 
