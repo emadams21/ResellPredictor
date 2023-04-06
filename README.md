@@ -33,3 +33,8 @@ I initially got an MSE (Mean Squared Error)  of $123.93 from the actual resell p
 
 However, the issue within the shoe reselling industry is that shoe prices are extremely volatile and change every day. This is why I chose to incorporate MAE(Mean Average Error) to mitigate the volatility of how the resell industry works. The average Error ended up being $70.30 which is awesome to help create a more precise range each shoe could resell for.
 
+#Repository Navigation
+
+https://github.com/emadams21/ResellPredictor/blob/main/Resell%20Predictor%20Tool%20Master%20Notebook.ipynb
+
+Stockx Capstone Project Presentation.pptx
