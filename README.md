@@ -35,6 +35,9 @@ However, the issue within the shoe reselling industry is that shoe prices are ex
 
 # Repository Navigation
 These are guidelines to be able to see the code from a reproduceability standpoint.
+
 1.[Final Notebook](https://github.com/emadams21/ResellPredictor/blob/main/Resell%20Predictor%20Tool%20Master%20Notebook.ipynb)
+
 2.[Stockx Capstone Project Presentation.pptx](https://amedeloitte-my.sharepoint.com/:p:/g/personal/emadams_deloitte_com/EWWhJKfu1DBNsU5aaA0HdGIB1biLY0AW36Qg2yRmN090xw?e=CBT87e)
+
 3. [Reproducability instructions are also found in the Final Notebook Linked Here!](https://github.com/emadams21/ResellPredictor/blob/main/Resell%20Predictor%20Tool%20Master%20Notebook.ipynb)
