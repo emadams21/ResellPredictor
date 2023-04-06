@@ -19,7 +19,7 @@ After cleaning the data and renaming columns to best suit this project I did an 
 I took into account Shoe Size, Colors, Retail Price, and shoe brand for the physical parts of the shoe. For colors, I had to incorporate a separate data set and one hot encode that data set to make it easy to identify which color is which.  From a non-physical standpoint, I restructured the way time was represented to make it easier to put into the model. I decided to reorganize the Release Dates and Order dates into seasons and years so I could just one-hot encode them together into the model. Now that I had all my features listed out I needed to see which features correlated with each other so I could choose the best model to go with.  I ended up creating a correlation matrix as shown below to map out which features show some correlation to each other.
 
 ![Correlation Matrix](https://user-images.githubusercontent.com/115181745/229978586-6afc90c0-779e-43d0-87b3-b2f809b5ef95.png)
-
+This correlation matrix had some really interesting findings. I discovered that there was some positive correlation between the color red on profit, Resell Price, and profit ratio. However, there were some inverse relationships between Resell price and the original retail price or an inverse relationship if the color of the shoes is grey.
 
 # Modeling and Evaluation
 What modeling techniques are most appropriate for your problem?
