@@ -28,6 +28,8 @@ The classification that I was aiming for was to be able to predict the Resell pr
 To help me choose a model that would best suit me I wanted to create a pipeline to help me choose the best model possible. I wanted to choose between a decision tree regression model and Random Forest Pipeline to help me identify the specific shoe and its resell price. I also wanted to test the XGBoost model to show which features are impacting the Resell price the most. Through most of my testing, XGBoost and the Random Forest Pipeline went back and forth on accuracy initially. I chose Random Forrest because It was more accurate most of the time. 
 
 # Conclusion
-What metrics will you use to determine success (MAE, RMSE, etc.)?
 
+I initially got an MSE (Mean Squared Error)  of $123.93 from the actual resell price and an improved model accuracy of 89%. I was extremely pleased with these results because they didn't show any signs of over or underfitting.
+
+However, the issue within the shoe reselling industry is that shoe prices are extremely volatile and change every day. This is why I chose to incorporate MAE(Mean Average Error) to mitigate the volatility of how the resell industry works. The average Error ended up being $70.30 which is awesome to help create a more precise range each shoe could resell for.
 
