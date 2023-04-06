@@ -1,26 +1,25 @@
 ![Jordan 1 Cover for Readme](https://user-images.githubusercontent.com/115181745/229978370-64caf802-dae5-4698-99f8-049ba463d4e5.png)
 # Resell Predictor Tool
 
-Are you sneakerhead that has trouble finding the next hotest shoe to collect or Resell? Well Ive created a model based on 90,000 different shoe sales from StockX one of the most popular reselling websites in the world. Our model is so well that we are able to predict within $70 USD of the actual shoe price. (See below for further detials.)  
-
-
+Are you a sneakerhead that has trouble finding the next hottest shoe to collect or Resell? Well, I've created a model based on 90,000 different shoe sales from StockX one of the most popular reselling websites in the world. Our model is so well that we can predict within $70 of the actual shoe price. (See below for further details.)    
 # Business Understanding
 
-The business problems That I am trying to solve is to help high end shoe resellers be able to gain competitive advantages when it comes to knowing what shoes to buy and give them the most bang for their buck. I want them to be able to put in what type of shoe they want and then predict the resell price of that. 
+The business problem that I am trying to solve is to help high-end shoe resellers be able to gain competitive advantages when it comes to knowing what shoes to buy, giving them the most bang for their buck. I want them to be able to put in what type of shoe they want and then predict the reselling price to potentially predict profit.
 
 # Data Understanding
 
-"The data in this project consist of a random sample of all U.S. Off-White x Nike and Yeezy 350 sales from between 9/1/2017 and 2/13/2019. 
-This was from a data contest that StockX provided.
+The data in this project consist of a random sample of all U.S. Off-White x Nike and Yeezy 350 sales from between 9/1/2017 and 2/13/2019. 
+This was from a data contest that StockX provided. To create this sample, StockX collected a random, fixed percentage of StockX sales for each colorway, on each day, since September, 2017. So, for each day the Off-White Jordan 1 was on the market, StockX randomly selected sales from each day. The sample was limited to U.S. sales only.
 
-To create this sample, I collected a random, fixed percentage of StockX sales (X%) for each colorway, on each day, since September, 2017. So, for each day the Off-White Jordan 1 was on the market, we randomly selected X% of its sale from each day. (It’s not important to know what X is; all that matters is that it’s a random sample, and that the same fixed X% of sales was selected from every day, for every sneaker). The sample was limited to U.S. sales only.
+#Data Discoveries
+After cleaning the data and renaming columns to best suit this project I did an initial analysis to test the spread of different resell prices to determine if they were in a certain range or are their shoes on a spectrum. As shown below what I discovered is that this data set contains shoes on various ranges form high-end collectible shoes to middle to lower-end shoes. 
 
-We’ve included 8 variables for you to work with: Order Date, Brand, Sneaker Name, Sale Price ($), Retail Price ($), Release Date, Shoe Size, and Buyer Region (the state the buyer shipped to). You can use whatever variables you want in the analysis; you can use 1 
-Data Preparation
 ![Resell Price Image](https://user-images.githubusercontent.com/115181745/229978655-c7788942-df74-4e85-905d-4aa869968456.png)
 
-What kind of preprocessing steps do you foresee (encoding, matrix transformations, etc.)? 
-What are some of the cleaning/pre-processing challenges for this data? 
+I took into account Shoe Size, Colors, Retail Price, and shoe brand for the physical parts of the shoe. For colors, I had to incorporate a separate data set and one hot encode that data set to make it easy to identify which color is which.  From a non-physical standpoint, I restructured the way time was represented to make it easier to put into the model. I decided to reorganize the Release Dates and Order dates into seasons and years so I could just one-hot encode them together into the model.
+
+Now that I had all my features listed out I needed to see which features correlated with each other so I could choose the best model to go with.  I ended up creating a correlation matrix as shown below to map out which features show some correlation to each other.
+
 ![Correlation Matrix](https://user-images.githubusercontent.com/115181745/229978586-6afc90c0-779e-43d0-87b3-b2f809b5ef95.png)
 
 
