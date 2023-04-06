@@ -23,9 +23,9 @@ I took into account Shoe Size, Colors, Retail Price, and shoe brand for the phys
 This correlation matrix had some really interesting findings. I discovered that there was some positive correlation between the color red on profit, Resell Price, and profit ratio. However, there were some inverse relationships between Resell price and the original retail price or an inverse relationship if the color of the shoes is grey.
 
 # Modeling and Evaluation
-What modeling techniques are most appropriate for your problem?
-What is your target variable? (remember - we require that you answer/solve a supervised problem for the capstone, thus you will need a target)
-Is this a regression or classification problem?
+The classification that I was aiming for was to be able to predict the Resell price for any given shoe this also indicates that this will be a regression problem because it is calculating the actual $ dollar value of the shoe. 
+
+To help me choose a model that would best suit me I wanted to create a pipeline to help me choose the best model possible. I wanted to choose between a decision tree regression model and Random Forest Pipeline to help me identify the specific shoe and its resell price. I also wanted to test the XGBoost model to show which features are impacting the Resell price the most. Through most of my testing, XGBoost and the Random Forest Pipeline went back and forth on accuracy initially. I chose Random Forrest because It was more accurate most of the time. 
 
 # Conclusion
 What metrics will you use to determine success (MAE, RMSE, etc.)?
