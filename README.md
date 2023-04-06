@@ -11,7 +11,6 @@ The business problem that I am trying to solve is to help high-end shoe reseller
 The data in this project consist of a random sample of all U.S. Off-White x Nike and Yeezy 350 sales from between 9/1/2017 and 2/13/2019. 
 This was from a data contest that StockX provided. To create this sample, StockX collected a random, fixed percentage of StockX sales for each colorway, on each day, since September, 2017. So, for each day the Off-White Jordan 1 was on the market, StockX randomly selected sales from each day. The sample was limited to U.S. sales only.
 
-# Data Discoveries
 After cleaning the data and renaming columns to best suit this project I did an initial analysis to test the spread of different resell prices to determine if they were in a certain range or are their shoes on a spectrum. As shown below what I discovered is that this data set contains shoes on various ranges form high-end collectible shoes to middle to lower-end shoes. 
 
 ![Resell Price Image](https://user-images.githubusercontent.com/115181745/229978655-c7788942-df74-4e85-905d-4aa869968456.png)
